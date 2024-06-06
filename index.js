@@ -267,6 +267,7 @@ function blusVuur6() {
 function blusVuur7() {
     vuur7.classList.add("onzichtbaar")
     vuur7.classList.remove("zichtbaar")
+    blusGeluid()
     puntErbijOptellen()
     deTekstBallonAanpassen()
 }
@@ -274,6 +275,7 @@ function blusVuur7() {
 function blusVuur8() {
     vuur8.classList.add("onzichtbaar")
     vuur8.classList.remove("zichtbaar")
+    blusGeluid()
     puntErbijOptellen()
     deTekstBallonAanpassen()
 }
@@ -281,6 +283,7 @@ function blusVuur8() {
 function blusVuur9() {
     vuur9.classList.add("onzichtbaar")
     vuur9.classList.remove("zichtbaar")
+    blusGeluid()
     puntErbijOptellen()
     deTekstBallonAanpassen()
 }
@@ -288,6 +291,7 @@ function blusVuur9() {
 function blusVuur10() {
     vuur10.classList.add("onzichtbaar")
     vuur10.classList.remove("zichtbaar")
+    blusGeluid()
     puntErbijOptellen()
     deTekstBallonAanpassen()
 }
@@ -295,6 +299,7 @@ function blusVuur10() {
 function blusVuur11() {
     vuur11.classList.add("onzichtbaar")
     vuur11.classList.remove("zichtbaar")
+    blusGeluid()
     puntErbijOptellen()
     deTekstBallonAanpassen()
 }
@@ -302,6 +307,7 @@ function blusVuur11() {
 function blusVuur12() {
     vuur12.classList.add("onzichtbaar")
     vuur12.classList.remove("zichtbaar")
+    blusGeluid()
     puntErbijOptellen()
     deTekstBallonAanpassen()
 }
@@ -381,7 +387,7 @@ function deTekstBallonAanpassen() {
 ///////////////////////////
 ///////////////////////////
 
-// de button luisters naar kliks
+// de button luistert naar kliks
 // als er geklikt wordt
 // dan wordt de functie toggleRamp aangeroepen
 buttonRamp.addEventListener("click", toggleRamp)
